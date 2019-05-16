@@ -1,0 +1,13 @@
+plugin:
+  name: "DHTMaster"
+  author: "Florent Boutin"
+  description: "Permet de faire fonctionner les capteur DHT22 GreenPi"
+  uid: "gpdht"
+
+triggers:
+  - name: "new temperature value"
+    fields:
+      - "Sensor UID"
+  - name: "new humidity value"
+    fields:
+      - "Sensor UID"
