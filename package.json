@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Skalv/DHTMaster/issues"
   },
-  "homepage": "https://github.com/Skalv/DHTMaster#readme"
+  "homepage": "https://github.com/Skalv/DHTMaster#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
 }
